@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,63 +6,71 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #111;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1f1f1f);
       color: #fff;
-    }
-    .hero {
-      background-color: #000;
       text-align: center;
-      padding: 60px 20px;
     }
-    .hero h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-    .hero p {
-      font-size: 1.2rem;
-      margin-top: 0;
-      color: #ccc;
-    }
-    .content {
+    .container {
+      max-width: 700px;
+      margin: auto;
       padding: 40px 20px;
-      max-width: 800px;
-      margin: 0 auto;
     }
-    .content h2 {
-      color: #0f0;
-      font-size: 1.5rem;
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.3em;
     }
-    .contact {
-      background-color: #222;
-      padding: 30px 20px;
-      text-align: center;
+    h2 {
+      font-weight: normal;
+      color: #bbb;
+      margin-bottom: 1em;
     }
-    .contact a {
-      color: #0f0;
-      text-decoration: none;
+    .highlight {
+      color: #00ffa6;
       font-weight: bold;
     }
+    .card {
+      background-color: #222;
+      border-radius: 12px;
+      padding: 25px;
+      margin: 20px 0;
+      box-shadow: 0 0 15px rgba(0,255,166,0.2);
+    }
+    .contact {
+      margin-top: 30px;
+      font-size: 1.2em;
+    }
     .footer {
-      text-align: center;
-      font-size: 0.9rem;
-      padding: 15px;
-      background-color: #000;
-      color: #555;
+      margin-top: 50px;
+      color: #777;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
-  <div class="hero">
+  <div class="container">
     <h1>Mike B Movin</h1>
-    <p>Private Driver & Bodyguard for Hire</p>
+    <h2 class="highlight">Private Driver & Personal Bodyguard</h2><div class="card">
+  <p>Fast. Safe. Lowkey. Always ready.</p>
+  <p>I’m <span class="highlight">6'2" and 180 lbs</span> with 4+ years of driving experience.</p>
+  <p>Trained in quick response and personal protection. Calm under pressure, sharp under stress.</p>
+</div>
+
+<div class="card">
+  <p>Whether you’re headed to the studio, a show, or need to keep it smooth and secure on the move — I got you.</p>
+  <p>Clean record (just a few speeding tickets — cause I be movin).</p>
+  <p>Comfortable around smoke. No judgement, just business.</p>
+</div>
+
+<div class="contact">
+  <p><strong>Call/Text:</strong> <a href="tel:2058342985" style="color:#00ffa6; text-decoration:none;">205-834-2985</a></p>
+  <p><strong>Email:</strong> <a href="mailto:mikebmovin205@gmail.com" style="color:#00ffa6; text-decoration:none;">mikebmovin205@gmail.com</a></p>
+</div>
+
+<div class="footer">
+  Serving Alabama | Artists, Managers, VIPs Welcome
+</div>
+
   </div>
-  <div class="content">
-    <h2>Why Ride With Me?</h2>
-    <ul>
-      <li>6'2", 180 lbs – a strong, professional presence</li>
-      <li>4+ years of driving experience</li>
-      <li>Calm under pressure, trained in personal security</li>
-      <li>Quick reflexes, discreet, and reliable</li>
-      <li>Comfortable with smoke-friendly environments</li>
-      <li>Clean record (minus a few speed runs—because I move)</li>
+</body>
+</html>
