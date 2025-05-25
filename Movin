@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mike B Movin - Driver & Bodyguard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    .hero {
+      background-color: #000;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 0;
+      color: #ccc;
+    }
+    .content {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .content h2 {
+      color: #0f0;
+      font-size: 1.5rem;
+    }
+    .contact {
+      background-color: #222;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .contact a {
+      color: #0f0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 15px;
+      background-color: #000;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Mike B Movin</h1>
+    <p>Private Driver & Bodyguard for Hire</p>
+  </div>
+  <div class="content">
+    <h2>Why Ride With Me?</h2>
+    <ul>
+      <li>6'2", 180 lbs – a strong, professional presence</li>
+      <li>4+ years of driving experience</li>
+      <li>Calm under pressure, trained in personal security</li>
+      <li>Quick reflexes, discreet, and reliable</li>
+      <li>Comfortable with smoke-friendly environments</li>
+      <li>Clean record (minus a few speed runs—because I move)</li>
